@@ -1,0 +1,23 @@
+{
+  "name": "boostrap4",
+  "version": "1.0.0",
+  "description": "bootsrap 4 starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Rubel Hossain",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "font-awesome-npm-loader": "^1.0.3",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
+}

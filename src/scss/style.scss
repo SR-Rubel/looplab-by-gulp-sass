@@ -1,0 +1,54 @@
+$body-bg:#333;
+$font-color:#fff;
+$primay-color:#008ed6;
+$icon-font-size:30px;
+body{
+  background: $body-bg;
+  color:$font-color;
+}
+.navbar{
+  border-bottom: 3px solid $primay-color;
+  background: #292b2c;
+  opacity: .7;
+}
+#home-top-section{
+  background: url('../img/bg-img1.jpg') no-repeat left top;
+  background-size: cover;
+  min-height: 700px;
+  .dark-overlay{
+    background:rgba(0,0,0,0.7);
+    min-height:700px;
+  }
+  .fa{
+    background: #fff;
+    color:$primay-color;
+    padding: 4px;
+    font-size: $icon-font-size;
+    border-radius: 5px;
+  }
+}
+#explore-main-section{
+  .fa{
+    font-size: $icon-font-size;
+    background: #333;
+    color:#fff;
+    padding: 4px;
+    border-radius: 5px;
+  }
+#create-main-section{
+    .fa{
+      font-size: $icon-font-size;
+      background: $font-color;
+      color:$primay-color;
+      padding: 4px;
+      border-radius: 5px;
+    }
+}
+#share-main-section{
+  .fa{
+    font-size: $icon-font-size;
+    background: #333;
+    color:#fff;
+    padding: 4px;
+    border-radius: 5px;
+  }
